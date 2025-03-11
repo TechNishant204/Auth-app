@@ -1,4 +1,5 @@
-Steps to follow for Signup:```javascript
+### Steps to follow for Signup:
+```javascript
 // Function to handle user signup
 async function signup(req, res) {
   try {
