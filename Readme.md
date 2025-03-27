@@ -50,7 +50,7 @@ async function signup(req, res) {
 ### Steps in Login Process:
 1. Receive Login Request: The frontend sends the email and password to the login route.
 
-<<<<<<< HEAD
+
 2. Validate Input: Ensure the input is properly structured.
 
 3. Authenticate User:
@@ -61,7 +61,7 @@ async function signup(req, res) {
 4. Generate JWT: Use jsonwebtoken.sign() to create a token containing user info (e.g., user ID, role).
 
 5. Send Response: Return the JWT to the user if login is successful.
-=======
+============================================================================
 1. Fetch the data from the request body.
 2. Validate the data.
 3. Check whether the user already exists(User.findOne()) in the database.
@@ -72,4 +72,4 @@ async function signup(req, res) {
 8. Test the API using Postman and ensure that to add correct port.
 9. Create a cluster at atlas and pick the url from there and paste it inside .env file.
 10. create a new connection using same url at compass and test the connection.
->>>>>>> ad604025535c63c755f2ac9b7f416240366db536
+
