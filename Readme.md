@@ -1,5 +1,5 @@
 ### Steps to follow for Signup:
-<<<<<<< HEAD
+
 1. Fetch the data from the request body.
 2. Validate the data.
 3. Check whether the user already exists(User.findOne()) in the database.
